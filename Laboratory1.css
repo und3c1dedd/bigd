@@ -1,0 +1,38 @@
+table{
+   border: 1px solid black; 
+   border-collapse: collapse;
+   border-radius: 5px 5px;
+   width: 100%;
+}
+
+ caption{
+   border: 1px solid black; 
+   border-collapse: collapse;
+   border-radius: 5px 5px;
+   font-weight: bold ;
+   background-color: #4682B4;
+   padding: 8px;
+}
+  
+  th, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left align;
+    padding: 5px;
+  }
+
+  tr:nth-child(odd){
+    background-color: #79BAEC;
+}
+
+  tr:nth-child(even){
+    background-color: #C6DEFF;
+}
+
+  td:hover{
+    background-color: #4682b4;
+  }
+
+  td:hover {
+  transform: scale(1.05) perspective(1px);
+}
